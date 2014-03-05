@@ -9,6 +9,7 @@ This is a small project that I'm using to play with different web technologies.
 1. Learn spring rest services
   1. use Spring Boot Actuator - http://spring.io/guides/gs/actuator-service/
 1. Post a project to Github
+1. Play with TestNG testing framework
 1. Learn a storage tech - Redis or MongoDB or Elastic Search?
 
 
