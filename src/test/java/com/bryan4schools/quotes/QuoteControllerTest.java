@@ -1,7 +1,10 @@
-package quotes;
+package com.bryan4schools.quotes;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.bryan4schools.quotes.QuoteController;
+import com.bryan4schools.quotes.dao.Quote;
 
 public class QuoteControllerTest {
 

@@ -1,4 +1,4 @@
-package quotes;
+package com.bryan4schools.quotes.dao;
 
 import java.util.Date;
 
@@ -7,7 +7,7 @@ import java.util.Date;
 //	"quote" : "May you live in interesting times."
 //	"attribution" : "Chinese Curse" // who said the quote
 //	"date_added" : "unknown" // unknown or a date time
-//	"comment" : "From Mr. Hofmann’s World History class, 1990." // why I added the quote
+//	"comment" : "From Mr. Hofmann???s World History class, 1990." // why I added the quote
 
 
 public class Quote {

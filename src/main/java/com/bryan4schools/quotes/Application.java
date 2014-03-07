@@ -1,4 +1,4 @@
-package quotes;
+package com.bryan4schools.quotes;
 
 import java.util.Arrays;
 

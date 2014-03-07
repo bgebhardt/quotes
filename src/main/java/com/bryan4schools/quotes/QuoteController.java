@@ -1,6 +1,4 @@
-package quotes;
-
-import quotes.Quote;
+package com.bryan4schools.quotes;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -8,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.bryan4schools.quotes.dao.Quote;
 
 @Controller
 public class QuoteController {
