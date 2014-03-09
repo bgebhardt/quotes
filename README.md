@@ -86,7 +86,13 @@ http://spring.io/guides/gs/relational-data-access/
 
 http://wiki.fasterxml.com/JacksonHome
 
-http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/
+http://www.manning.com/walls5/SiA4E_MEAP_ch1.pdf
+http://www.manning.com/walls5/
+http://www.dzone.com/tutorials/java/spring/spring-mvc-tutorial-1.html
+http://webcache.googleusercontent.com/search?q=cache:7l6xG5NWro4J:spring.io/guides/gs/actuator-service/+&cd=1&hl=en&ct=clnk&gl=us
+http://spring.io/guides
+http://projects.spring.io/spring-boot/
+
 
 ## Redis links
 http://redis.io/topics/twitter-clone
@@ -113,6 +119,8 @@ Soulmate - Ruby/Redis autocompletion gem https://github.com/seatgeek/soulmate
 https://www.npmjs.org/package/redis-autocompleter
 
 ## Mongodb search
+http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/
+
 http://blog.mongodb.org/post/59757486344/faceted-search-with-mongodb
 
 http://www.elasticsearch.org/
@@ -124,3 +132,20 @@ http://www.elasticsearch.org/tutorials/using-elasticsearch-for-logs/
 http://logstash.net/docs/1.3.3/tutorials/getting-started-simple
 
 http://lucene.apache.org/solr/
+
+## Testing and mocking related links
+
+http://testng.org/doc/eclipse.html
+http://www.particlewave.com/2013/05/16/spring-unit-testing-using-junit/
+http://www.particlewave.com/2013/07/04/using-testng-with-spring/
+http://www.mkyong.com/unittest/testng-spring-integration-example/
+https://github.com/bgebhardt/quotes
+http://www.javatechtipssharedbygaurav.com/2013/04/rest-web-service-with-crud-operations.html
+http://azagorneanu.blogspot.com/2011/09/crud-restful-services-using-spring.html
+http://www.javacodegeeks.com/2013/04/spring-mvc-hibernate-maven-crud-operations-example.html
+http://steveperkins.net/use-spring-boot-next-project/
+http://samerabdelkafi.wordpress.com/2013/07/01/junit-test-with-mockito-and-spring/
+https://code.google.com/p/mockito/
+http://gualtierotesta.wordpress.com/2013/10/03/tutorial-using-mockito/
+
+
