@@ -46,7 +46,7 @@
     </dependencies>
 
     <properties>
-        <start-class>quotes.Application</start-class>
+        <start-class>com.bryan4schools.quotes.Application</start-class>
     </properties>
 
     <build>
