@@ -15,7 +15,7 @@ public class MemQuoteServiceImplTest {
 	
 	// some test quotes
 	Quote q1 = new Quote(1, "Now is the time for all good men...");
-	Quote q2 = new Quote(2, "The quick brown fox jumped over the lazy doc.");
+	Quote q2 = new Quote(2, "The quick brown fox jumped over the lazy dog.");
 	Quote q3 = new Quote(3, "May you live in interesting times.");
 	
 	@BeforeMethod
