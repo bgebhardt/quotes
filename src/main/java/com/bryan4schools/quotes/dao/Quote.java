@@ -39,10 +39,24 @@ public class Quote {
 		this.comment = "";
 	}
 
+	public Quote(Quote q) {
+		super();
+		this.id = q.getId();
+		this.content = q.getContent();
+		this.attribution = q.getAttribution();
+		this.date_added = q.getDate_added();
+		this.comment = q.getComment();
+	}
+
 	
 	public long getId() {
 		return id;
 	}
+
+	public long getIdObject() {
+		return new Long(id);
+	}
+	
 	public void setId(long id) {
 		this.id = id;
 	}
