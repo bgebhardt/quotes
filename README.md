@@ -27,7 +27,9 @@ This is a small project that I'm using to play with different web technologies.
 
 {
 	"id" : "123" // unique quote identifier
-	"quote" : "May you live in interesting times."
+	"quoteNumber" : // the quote number based on when it was added to the list.  Automatically max + 1 if not specified.
+QUESTION: Do I make id and quote number the same?  Tempted to for simpliticy.  Means id is a smart business key.
+	"quote" : "May you live in interesting times."  // QUESTION: should I support markdown or HTML?
 	"attribution" : "Chinese Curse" // who said the quote
 	"date_added" : "unknown" // unknown or a date time
 	"comment" : "From Mr. Hofmann’s World History class, 1990." // why I added the quote
