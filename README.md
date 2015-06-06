@@ -18,6 +18,7 @@ This is a small project that I'm using to play with different web technologies.
 1. CRUD operations on quote
 1. Search for quote
 1. Service interface to CRUD operations
+1. Return a random quote
 2. Commenting system for quotes
 2. Categorization system for quotes
 
@@ -50,6 +51,16 @@ list of quote objects
 
 # Design
 
+NEW 04-25-2015 
+
+* elastic search for quotes
+* write an angularJS app to interact with elastic search directly
+	* Use bootstrap to make it look nice
+* use logstash to ETL and batch load quotes
+
+
+---
+
 Store as text file to start with
 Play with Redis and other stores
 
@@ -63,6 +74,41 @@ key quote:<id>
 set quote:<id>:tags
 set quote:<id>:categories
 
+
+## Logstash set up to load in quotes
+
+On a mac install via brew
+
+	% brew install logstash
+
+TODO: update logstash config file
+
+Run logstash with the logstash config
+
+	% logstash -f logstash-quotes.conf
+
+### useful logstash links
+
+[Grok Debugger](http://grokdebug.herokuapp.com/)
+
+[Little Logstash Lessons - Part I: Using grok and mutate to type your data | Elastic](https://www.elastic.co/blog/little-logstash-lessons-part-using-grok-mutate-type-data)
+[match logstash correct date format - Stack Overflow](http://stackoverflow.com/questions/23222128/match-logstash-correct-date-format)
+[elasticsearch - Logstash: How to use date/time in a filename as an imported field - Stack Overflow](http://stackoverflow.com/questions/28277045/logstash-how-to-use-date-time-in-a-filename-as-an-imported-field)
+[grok - Logstash custom date log format match - Stack Overflow](http://stackoverflow.com/questions/26035136/logstash-custom-date-log-format-match)
+[Elasticsearch: The Definitive Guide](http://www.elastic.co/guide/en/elasticsearch/guide/current/index.html)
+[‎www.geocities.jp/kosako3/oniguruma/doc/RE.txt](http://www.geocities.jp/kosako3/oniguruma/doc/RE.txt)
+[date](http://www.elastic.co/guide/en/logstash/current/plugins-filters-date.html)
+[grok](http://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html)
+[logstash-patterns-core/grok-patterns at master · logstash-plugins/logstash-patterns-core](https://github.com/logstash-plugins/logstash-patterns-core/blob/master/patterns/grok-patterns)
+[elasticsearch](http://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html#plugins-outputs-elasticsearch-index)
+[file](http://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html#plugins-inputs-file-sincedb_path)
+
+[Logstash Multiline Tomcat and Apache Log Parsing – Michael Lanyon's Blog](http://blog.lanyonm.org/articles/2014/01/12/logstash-multiline-tomcat-log-parsing.html)
+[logstash - open source log management](http://logstash.net/docs/1.4.0/filters/grok)
+[logstash - open source log management](http://www.logstash.net/docs/1.1.12/tutorials/10-minute-walkthrough/)
+[Logstash: 0-60 in 60 | Elastic](https://www.elastic.co/webinars/logstash-0-60-in-60?baymax=rtp&elektra=downloads&iesrc=ctr)
+[Using Logstash to import CSV Files Into ElasticSearch](https://kevinkirsche.com/2014/08/25/using-logstash-to-import-csv-files-into-elasticsearch/)
+[A simple Logstash conffile with a custom grok filter](https://gist.github.com/juanje/3081998)
 
 
 # Useful Spring Info
